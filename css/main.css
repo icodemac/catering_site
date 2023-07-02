@@ -169,3 +169,11 @@ span {
   text-align: center;
   border-bottom: 1px solid #3d38382d;
 }
+
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+
+.menu-item {
+  margin-bottom: 40px;
+}
