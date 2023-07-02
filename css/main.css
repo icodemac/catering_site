@@ -177,3 +177,20 @@ span {
 .menu-item {
   margin-bottom: 40px;
 }
+
+/* Contact */
+
+.contact {
+  padding: 20px;
+  margin: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact h2 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
