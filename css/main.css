@@ -43,6 +43,12 @@ span {
   padding: 4px;
 }
 
+.btn {
+  background-color: #ccc;
+  padding: 8px 12px;
+  color: #000;
+}
+
 /* Navbar */
 
 .navbar {
@@ -181,7 +187,7 @@ span {
 /* Contact */
 
 .contact {
-  padding: 20px;
+  padding: 20px 40px;
   margin: 10px 50px;
   display: flex;
   flex-direction: column;
@@ -193,4 +199,46 @@ span {
   font-size: 40px;
   font-weight: 100;
   margin-bottom: 40px;
+}
+
+.contact h4 {
+  color: #607d8b;
+}
+
+.contact-form {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.contact-form .form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form .form-control {
+  margin-bottom: 15px;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Footer */
+
+footer {
+  background-color: #ccc;
+  height: 120px;
+}
+
+footer p {
+  padding-top: 40px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: underline;
 }
